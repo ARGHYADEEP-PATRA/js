@@ -40,10 +40,45 @@ const user=[
   }
 ]
 //console.log(user[1].name);
-console.log(tinderuser);
-console.log(Object.keys(tinderuser));  //Object.keys retutn a array not a object also same for values
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser)); //Object.entryes return arrays of array where each key value  represented by an array where the first value refer key and the second value refer value
+// console.log(tinderuser);
+// console.log(Object.keys(tinderuser));  //Object.keys retutn a array not a object also same for values
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser)); //Object.entryes return arrays of array where each key value  represented by an array where the first value refer key and the second value refer value
 
-console.log(Object.hasOwnProperty('isLoggedIn'));
+// console.log(Object.hasOwnProperty('isLoggedIn'));
 //hasOwnProperty used for check a key is present or not
+
+
+//start of 18 video
+//object destructureing
+const course={
+  coursename:"js in hindi",
+  price:"999",
+  courseinstructer:"arghya"
+}
+
+//course.courseinstructer
+
+const {courseinstructer:instructer}=course;
+
+//console.log(courseinstructer);
+//console.log(instructer);
+
+// const navbar=({company})=>{
+
+// }
+// navbar(company="arghya")
+
+
+//json
+// {
+//    "name":"arghya",
+//    "coursename":"js in hindi",
+//    "prince":"free"
+// }
+
+// [
+//   {},
+//   {},
+//   {}
+// ]
